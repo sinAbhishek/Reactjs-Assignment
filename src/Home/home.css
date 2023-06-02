@@ -1,0 +1,36 @@
+.main {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(76, 76, 76, 1) 3%,
+    rgba(84, 84, 84, 1) 9%,
+    rgba(14, 14, 15, 1) 100%
+  );
+}
+.wrapper {
+  max-width: 260px;
+}
+.main-home {
+  height: max-content;
+}
+body {
+  background-color: rgb(19, 19, 19);
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    width: 18%;
+    height: 35%;
+    margin: 0;
+    min-width: 160px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    width: 90%;
+    height: 50%;
+    margin: 0;
+    min-width: 260px;
+  }
+}
